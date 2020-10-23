@@ -1,0 +1,9 @@
+# how to call links via zuul api
+# {application-name} currency-exchange-service
+#http://localhost:8765/{application-name}/currency-converter-feign/from/EUR/to/INR/quantity/1000
+# {application-name} currency-conversion-service
+#http://localhost:8765/{application-name}/currency-converter-feign/from/EUR/to/INR/quantity/1000
+spring.application.name = netflix-zuul-api-gateway-server
+server.port=8765
+eureka.client.service-url.default-zone=http://localhost:8761/eureka
+

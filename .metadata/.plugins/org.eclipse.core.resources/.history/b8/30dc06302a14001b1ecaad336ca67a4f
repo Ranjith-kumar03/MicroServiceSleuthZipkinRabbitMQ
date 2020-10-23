@@ -1,0 +1,16 @@
+package com.example.demo.currencyConversionBean;
+
+import java.math.BigDecimal;
+
+
+
+public class CurrencyConversionBean {
+	private Long id;
+	
+	private String from;
+	
+	private String to;
+	private BigDecimal conversionMutiple;
+	private int port;
+
+}

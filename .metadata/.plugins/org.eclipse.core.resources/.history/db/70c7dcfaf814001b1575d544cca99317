@@ -1,0 +1,8 @@
+limits-service.minimum =3333
+limits-service.maximum=4444444
+# if you add cloud bus donot foprget to add
+# <dependency>
+ #       <groupId>org.springframework.cloud</groupId>
+ #       <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
+ #   </dependency> --!>
+#use this it works http://localhost:8080/actuator/bus-refresh

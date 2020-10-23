@@ -1,0 +1,5 @@
+limits-service.minimum =200
+limits-service.maximum=22222
+management.security.enabled=false
+spring.cloud.bus.enabled=true
+management.endpoints.web.exposure.include=bus-refresh

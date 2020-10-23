@@ -1,0 +1,5 @@
+package com.example.demo.loggingfilter;
+
+public class ZuulLoggingFilter {
+
+}

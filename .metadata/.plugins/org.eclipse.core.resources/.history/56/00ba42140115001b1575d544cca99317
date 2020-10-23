@@ -1,0 +1,4 @@
+limits-service.minimum =111
+limits-service.maximum=111111
+#add spring bus dependeny
+#use this it works http://localhost:8080/actuator/bus-refresh

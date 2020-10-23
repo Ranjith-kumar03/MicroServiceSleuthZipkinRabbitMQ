@@ -1,0 +1,3 @@
+limits-service.minimum =777
+limits-service.maximum=777777
+#use this it works http://localhost:8080/actuator/bus-refresh
